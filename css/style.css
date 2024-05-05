@@ -368,6 +368,74 @@ img {
   text-align: center;
 }
 
+
+
+/* お問い合わせフォーム */
+/* お問い合わせ */
+.contact-form {
+  margin: 80px auto 80px auto;
+}
+
+/* 外枠 */
+.contact-form > form > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+/* 左列の見出し */
+.contact-heading {
+  width: 240px;
+  align-self: center;
+}
+/* 見出しのラベル */
+.contact-label {
+  font-weight: bold;
+}
+/* 必須 */
+.contact-span {
+  color: #ce2222;
+  margin: 0 0 0 20px;
+  font-weight: bold;
+}
+
+/* テキストボックス */
+.contact-textbox {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-width: 1px;
+  border-bottom-color: #707070;
+  border-bottom-style: solid;
+  background-color: #fafafa;
+  width: 400px;
+  height: 56px;
+}
+
+/* お問い合わせ内容のテキストエリア */
+.contact-textarea {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-width: 1px;
+  border-bottom-color: #707070;
+  background-color: #fafafa;
+  width: 400px;
+  height: 200px;
+}
+
+/* テキストボックス */
+button {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border: 1px solid #707070;
+  background-color: #fafafa;
+  width: 200px;
+  height: 56px;
+}
+
 /*media Queries 767
 ----------------------------------------------------*/
 @media screen and (max-width: 767px) {
