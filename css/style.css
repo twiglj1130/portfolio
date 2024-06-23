@@ -13,9 +13,10 @@ a {
 
 img {
   max-width: 100%;
-  height: auto;
   vertical-align: bottom;
   border-style: none;
+  height: 300.5px;
+  object-fit: contain;
 }
 
 
