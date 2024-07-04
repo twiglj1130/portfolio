@@ -19,10 +19,6 @@ img {
   object-fit: contain;
 }
 
-.works-img img {
-  height: 300.5px;
-}
-
 
 
 .pc-only {
@@ -187,8 +183,13 @@ img {
   margin-right: 0;
 }
 
+.works-img{
+  text-align: center;
+}
+
 .works-img img {
   border: 1px solid #e6e6e6;
+  height: 300.5px;
 }
 
 .works-name {
