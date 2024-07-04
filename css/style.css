@@ -15,8 +15,12 @@ img {
   max-width: 100%;
   vertical-align: bottom;
   border-style: none;
-  height: 300.5px;
+  /* height: 300.5px; */
   object-fit: contain;
+}
+
+.works-img img {
+  height: 300.5px;
 }
 
 
