@@ -15,8 +15,7 @@ img {
   max-width: 100%;
   vertical-align: bottom;
   border-style: none;
-  /* height: 300.5px; */
-  object-fit: contain;
+  object-fit: cover;
 }
 
 
